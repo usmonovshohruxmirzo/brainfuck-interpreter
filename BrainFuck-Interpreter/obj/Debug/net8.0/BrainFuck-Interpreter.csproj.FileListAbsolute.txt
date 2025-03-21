@@ -1,0 +1,14 @@
+C:\Users\ACER_NITRO\Desktop\BrainFuck-Interpreter\BrainFuck-Interpreter\bin\Debug\net8.0\BrainFuck-Interpreter.exe
+C:\Users\ACER_NITRO\Desktop\BrainFuck-Interpreter\BrainFuck-Interpreter\bin\Debug\net8.0\BrainFuck-Interpreter.deps.json
+C:\Users\ACER_NITRO\Desktop\BrainFuck-Interpreter\BrainFuck-Interpreter\bin\Debug\net8.0\BrainFuck-Interpreter.runtimeconfig.json
+C:\Users\ACER_NITRO\Desktop\BrainFuck-Interpreter\BrainFuck-Interpreter\bin\Debug\net8.0\BrainFuck-Interpreter.dll
+C:\Users\ACER_NITRO\Desktop\BrainFuck-Interpreter\BrainFuck-Interpreter\bin\Debug\net8.0\BrainFuck-Interpreter.pdb
+C:\Users\ACER_NITRO\Desktop\BrainFuck-Interpreter\BrainFuck-Interpreter\obj\Debug\net8.0\BrainFuck-Interpreter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER_NITRO\Desktop\BrainFuck-Interpreter\BrainFuck-Interpreter\obj\Debug\net8.0\BrainFuck-Interpreter.AssemblyInfoInputs.cache
+C:\Users\ACER_NITRO\Desktop\BrainFuck-Interpreter\BrainFuck-Interpreter\obj\Debug\net8.0\BrainFuck-Interpreter.AssemblyInfo.cs
+C:\Users\ACER_NITRO\Desktop\BrainFuck-Interpreter\BrainFuck-Interpreter\obj\Debug\net8.0\BrainFuck-Interpreter.csproj.CoreCompileInputs.cache
+C:\Users\ACER_NITRO\Desktop\BrainFuck-Interpreter\BrainFuck-Interpreter\obj\Debug\net8.0\BrainFuck-Interpreter.dll
+C:\Users\ACER_NITRO\Desktop\BrainFuck-Interpreter\BrainFuck-Interpreter\obj\Debug\net8.0\refint\BrainFuck-Interpreter.dll
+C:\Users\ACER_NITRO\Desktop\BrainFuck-Interpreter\BrainFuck-Interpreter\obj\Debug\net8.0\BrainFuck-Interpreter.pdb
+C:\Users\ACER_NITRO\Desktop\BrainFuck-Interpreter\BrainFuck-Interpreter\obj\Debug\net8.0\BrainFuck-Interpreter.genruntimeconfig.cache
+C:\Users\ACER_NITRO\Desktop\BrainFuck-Interpreter\BrainFuck-Interpreter\obj\Debug\net8.0\ref\BrainFuck-Interpreter.dll
