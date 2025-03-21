@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BrainFuck-Interpreter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a6a30bfd41a03f76918ab368987a1cba200fe3e")]
 [assembly: System.Reflection.AssemblyProductAttribute("BrainFuck-Interpreter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BrainFuck-Interpreter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

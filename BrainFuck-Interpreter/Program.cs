@@ -5,7 +5,7 @@ namespace Program
 {
     public class Program
     {
-        public void Execute(string code)
+        public static void Execute(string code)
         {
             byte[] memory = new byte[30_000];
             int pointer = 0;
@@ -19,44 +19,40 @@ namespace Program
                 else if (code[i] == ']')
                 {
                     if (loopStartStack.Count == 0) throw new Exception("Unmatched ] found.");
+
                     int start = loopStartStack.Pop();
                     loopMap[start] = i;
                     loopMap[i] = start;
                 }
             }
-
-            if (loopStartStack.Count == 0) throw new Exception("Unmatched ] found.");
+            if (loopStartStack.Count > 0) throw new Exception("Unmatched [ found.");
 
             for (int i = 0; i < code.Length; i++)
             {
                 switch (code[i])
                 {
-                    case '>':
-                        pointer++;
-                        break;
-                    case '<':
-                        pointer--;
-                        break;
-                    case '+':
-                        memory[pointer]++;
-                        break;
-                    case '-':
-                        memory[pointer]--;
-                        break;
-                    case '.':
-                        Console.WriteLine((char)memory[pointer]);
-                        break;
-                    case ',':
-                        memory[pointer] = (byte)Console.Read();
-                        break;
+                    case '>': pointer++; break;
+                    case '<': pointer--; break;
+                    case '+': memory[pointer]++; break;
+                    case '-': memory[pointer]--; break;
+                    case '.': Console.Write((char)memory[pointer]); break;
+                    case ',': memory[pointer] = (byte)Console.Read(); break;
                     case '[':
-                        if (memory[pointer] == 0) i = loopMap[i];
+                        if (memory[pointer] == 0) i = loopMap[i]; 
                         break;
                     case ']':
-                        if (memory[pointer] != 0) i = loopMap[i] - 1;
+                        if (memory[pointer] != 0) i = loopMap[i] - 1; 
                         break;
                 }
             }
+        }
+
+        static void Main()
+        {
+            Console.WriteLine("Enter Brainfuck code:");
+            string? code = Console.ReadLine();
+            if (code != null) Execute(code);
+            else Console.WriteLine("No code entered.");
         }
     }
 }

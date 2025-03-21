@@ -12,3 +12,4 @@ C:\Users\ACER_NITRO\Desktop\BrainFuck-Interpreter\BrainFuck-Interpreter\obj\Debu
 C:\Users\ACER_NITRO\Desktop\BrainFuck-Interpreter\BrainFuck-Interpreter\obj\Debug\net8.0\BrainFuck-Interpreter.pdb
 C:\Users\ACER_NITRO\Desktop\BrainFuck-Interpreter\BrainFuck-Interpreter\obj\Debug\net8.0\BrainFuck-Interpreter.genruntimeconfig.cache
 C:\Users\ACER_NITRO\Desktop\BrainFuck-Interpreter\BrainFuck-Interpreter\obj\Debug\net8.0\ref\BrainFuck-Interpreter.dll
+C:\Users\ACER_NITRO\Desktop\BrainFuck-Interpreter\BrainFuck-Interpreter\obj\Debug\net8.0\BrainFuck-Interpreter.sourcelink.json
