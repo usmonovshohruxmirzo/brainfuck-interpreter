@@ -27,7 +27,36 @@ namespace Program
 
             if (loopStartStack.Count == 0) throw new Exception("Unmatched ] found.");
 
-
+            for (int i = 0; i < code.Length; i++)
+            {
+                switch (code[i])
+                {
+                    case '>':
+                        pointer++;
+                        break;
+                    case '<':
+                        pointer--;
+                        break;
+                    case '+':
+                        memory[pointer]++;
+                        break;
+                    case '-':
+                        memory[pointer]--;
+                        break;
+                    case '.':
+                        Console.WriteLine((char)memory[pointer]);
+                        break;
+                    case ',':
+                        memory[pointer] = (byte)Console.Read();
+                        break;
+                    case '[':
+                        if (memory[pointer] == 0) i = loopMap[i];
+                        break;
+                    case ']':
+                        if (memory[pointer] != 0) i = loopMap[i] - 1;
+                        break;
+                }
+            }
         }
     }
 }
